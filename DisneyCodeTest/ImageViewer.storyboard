@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mXU-nC-A4Q">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image Viewer View Controller-->
+        <scene sceneID="YQQ-rK-Ub5">
+            <objects>
+                <viewController id="mXU-nC-A4Q" customClass="ImageViewerViewController" customModule="DisneyCodeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VSY-6o-bfh"/>
+                        <viewControllerLayoutGuide type="bottom" id="JJa-7f-3my"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d6D-Dz-jCI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJN-Pm-uIx">
+                                <rect key="frame" x="317" y="28" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closePressed" destination="mXU-nC-A4Q" eventType="touchUpInside" id="IYR-EE-PgQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RuJ-0L-7X6">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="RuJ-0L-7X6" firstAttribute="leading" secondItem="d6D-Dz-jCI" secondAttribute="leading" id="8A6-iz-POk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZJN-Pm-uIx" secondAttribute="trailing" constant="3" id="8ud-Ko-gt7"/>
+                            <constraint firstAttribute="trailing" secondItem="RuJ-0L-7X6" secondAttribute="trailing" id="PHY-22-3fH"/>
+                            <constraint firstItem="RuJ-0L-7X6" firstAttribute="top" secondItem="VSY-6o-bfh" secondAttribute="bottom" constant="40" id="UfY-dq-2wG"/>
+                            <constraint firstItem="JJa-7f-3my" firstAttribute="top" secondItem="RuJ-0L-7X6" secondAttribute="bottom" id="i6c-nW-tVq"/>
+                            <constraint firstItem="ZJN-Pm-uIx" firstAttribute="top" secondItem="VSY-6o-bfh" secondAttribute="bottom" constant="8" id="mze-2w-Klm"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="1B3-rm-lUn" appends="YES" id="vmd-xh-Qpp"/>
+                            <outletCollection property="gestureRecognizers" destination="dCt-8I-F4f" appends="YES" id="GI4-Is-aX3"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="RuJ-0L-7X6" id="6nB-px-FJW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QNQ-P0-L5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="1B3-rm-lUn">
+                    <connections>
+                        <action selector="swipeRight" destination="mXU-nC-A4Q" id="Sdy-9R-oos"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="dCt-8I-F4f">
+                    <connections>
+                        <action selector="swipeLeft" destination="mXU-nC-A4Q" id="exi-g4-nFQ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-426.39999999999998" y="-70.614692653673174"/>
+        </scene>
+    </scenes>
+</document>

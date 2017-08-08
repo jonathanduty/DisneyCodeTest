@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6AB20C2E1F3A5605008289DE"
-               BuildableName = "DisneyCodeTest.app"
-               BlueprintName = "DisneyCodeTest"
-               ReferencedContainer = "container:DisneyCodeTest.xcodeproj">
+               BlueprintIdentifier = "B630A8F519D3BA0E1986B5A7F81597E2"
+               BuildableName = "Pods_DisneyCodeTest.framework"
+               BlueprintName = "Pods-DisneyCodeTest"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6AB20C2E1F3A5605008289DE"
-            BuildableName = "DisneyCodeTest.app"
-            BlueprintName = "DisneyCodeTest"
-            ReferencedContainer = "container:DisneyCodeTest.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6AB20C2E1F3A5605008289DE"
-            BuildableName = "DisneyCodeTest.app"
-            BlueprintName = "DisneyCodeTest"
-            ReferencedContainer = "container:DisneyCodeTest.xcodeproj">
+            BlueprintIdentifier = "B630A8F519D3BA0E1986B5A7F81597E2"
+            BuildableName = "Pods_DisneyCodeTest.framework"
+            BlueprintName = "Pods-DisneyCodeTest"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6AB20C2E1F3A5605008289DE"
-            BuildableName = "DisneyCodeTest.app"
-            BlueprintName = "DisneyCodeTest"
-            ReferencedContainer = "container:DisneyCodeTest.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F832925551A19CA166AD09D /* Pods_DisneyCodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9413F5B5F2E19DD2695642EA /* Pods_DisneyCodeTest.framework */; };
+		6A7920511F3A6B4A00D29D9B /* ImageViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7920501F3A6B4A00D29D9B /* ImageViewer.storyboard */; };
+		6A7920531F3A6DD600D29D9B /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7920521F3A6DD600D29D9B /* ImageViewerViewController.swift */; };
 		6AB20C331F3A5605008289DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB20C321F3A5605008289DE /* AppDelegate.swift */; };
 		6AB20C351F3A5605008289DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB20C341F3A5605008289DE /* ViewController.swift */; };
 		6AB20C381F3A5605008289DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB20C361F3A5605008289DE /* Main.storyboard */; };
 		6AB20C3A1F3A5605008289DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB20C391F3A5605008289DE /* Assets.xcassets */; };
 		6AB20C3D1F3A5605008289DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB20C3B1F3A5605008289DE /* LaunchScreen.storyboard */; };
+		6AB20C451F3A56B2008289DE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB20C441F3A56B2008289DE /* API.swift */; };
+		6AB20C481F3A56E4008289DE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB20C471F3A56E4008289DE /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05CA7CAB516379209A157255 /* Pods-DisneyCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DisneyCodeTest/Pods-DisneyCodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		3A9E8A52EA5524A408743E33 /* Pods-DisneyCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DisneyCodeTest/Pods-DisneyCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6A7920501F3A6B4A00D29D9B /* ImageViewer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImageViewer.storyboard; sourceTree = "<group>"; };
+		6A7920521F3A6DD600D29D9B /* ImageViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
 		6AB20C2F1F3A5605008289DE /* DisneyCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB20C321F3A5605008289DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB20C341F3A5605008289DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		6AB20C391F3A5605008289DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AB20C3C1F3A5605008289DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AB20C3E1F3A5605008289DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB20C441F3A56B2008289DE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6AB20C471F3A56E4008289DE /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9413F5B5F2E19DD2695642EA /* Pods_DisneyCodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyCodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F832925551A19CA166AD09D /* Pods_DisneyCodeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		627159E1B9A8521D8DD77FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9E8A52EA5524A408743E33 /* Pods-DisneyCodeTest.debug.xcconfig */,
+				05CA7CAB516379209A157255 /* Pods-DisneyCodeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6AB20C261F3A5605008289DE = {
 			isa = PBXGroup;
 			children = (
 				6AB20C311F3A5605008289DE /* DisneyCodeTest */,
 				6AB20C301F3A5605008289DE /* Products */,
+				627159E1B9A8521D8DD77FDB /* Pods */,
+				A352EC135D5A48469C7ED718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +84,20 @@
 				6AB20C391F3A5605008289DE /* Assets.xcassets */,
 				6AB20C3B1F3A5605008289DE /* LaunchScreen.storyboard */,
 				6AB20C3E1F3A5605008289DE /* Info.plist */,
+				6AB20C441F3A56B2008289DE /* API.swift */,
+				6AB20C471F3A56E4008289DE /* Utils.swift */,
+				6A7920501F3A6B4A00D29D9B /* ImageViewer.storyboard */,
+				6A7920521F3A6DD600D29D9B /* ImageViewerViewController.swift */,
 			);
 			path = DisneyCodeTest;
+			sourceTree = "<group>";
+		};
+		A352EC135D5A48469C7ED718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9413F5B5F2E19DD2695642EA /* Pods_DisneyCodeTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AB20C411F3A5605008289DE /* Build configuration list for PBXNativeTarget "DisneyCodeTest" */;
 			buildPhases = (
+				6DF65896BB55BD42F0978759 /* [CP] Check Pods Manifest.lock */,
 				6AB20C2B1F3A5605008289DE /* Sources */,
 				6AB20C2C1F3A5605008289DE /* Frameworks */,
 				6AB20C2D1F3A5605008289DE /* Resources */,
+				32331EE0400F11F63507E928 /* [CP] Embed Pods Frameworks */,
+				A81F12A14B347E096D311E5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +165,60 @@
 			files = (
 				6AB20C3D1F3A5605008289DE /* LaunchScreen.storyboard in Resources */,
 				6AB20C3A1F3A5605008289DE /* Assets.xcassets in Resources */,
+				6A7920511F3A6B4A00D29D9B /* ImageViewer.storyboard in Resources */,
 				6AB20C381F3A5605008289DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32331EE0400F11F63507E928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DisneyCodeTest/Pods-DisneyCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF65896BB55BD42F0978759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A81F12A14B347E096D311E5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DisneyCodeTest/Pods-DisneyCodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AB20C2B1F3A5605008289DE /* Sources */ = {
@@ -138,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB20C351F3A5605008289DE /* ViewController.swift in Sources */,
+				6AB20C451F3A56B2008289DE /* API.swift in Sources */,
 				6AB20C331F3A5605008289DE /* AppDelegate.swift in Sources */,
+				6A7920531F3A6DD600D29D9B /* ImageViewerViewController.swift in Sources */,
+				6AB20C481F3A56E4008289DE /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +352,7 @@
 		};
 		6AB20C421F3A5605008289DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9E8A52EA5524A408743E33 /* Pods-DisneyCodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HYH2YL86M3;
@@ -274,6 +366,7 @@
 		};
 		6AB20C431F3A5605008289DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CA7CAB516379209A157255 /* Pods-DisneyCodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HYH2YL86M3;
@@ -304,6 +397,7 @@
 				6AB20C431F3A5605008289DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
